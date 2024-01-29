@@ -11,7 +11,6 @@
     </div>
     <CardList/>
     <Drawer/>
-    <h1>пипипапа</h1>
   </div>
 
 </template>
