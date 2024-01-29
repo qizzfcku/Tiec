@@ -14,7 +14,7 @@ import MyPhoneMask from '@/components/MyPhoneMask.vue'
     <CartItemList/>
 
     <div class="mt-8">
-      <input class="border border-slate-200 rounded-xl w-full p-3 mb-2" placeholder="Ваше имя:"/>
+      <input class="border border-slate-200 rounded-xl w-full p-3 mb-2 outline-none focus:border-blue-400" placeholder="Ваше имя:"/>
 
       <MyPhoneMask class="mb-2"/>
 

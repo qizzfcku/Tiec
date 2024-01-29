@@ -13,7 +13,7 @@ defineProps({
     <p class="mt-5">{{ title }}</p>
 
     <div class="flex justify-between">
-      <img class="left-6 bottom-10 mt-2" src="/public/image 7.svg" alt="info">
+      <img class="left-6 bottom-10 mt-2 opacity-60 hover:opacity-100 scale-75 hover:scale-100" src="/public/image 7.svg" alt="info">
       <div v-if="isAdded">
         <img class="left-6 bottom-10" src="/public/Group 95.svg" alt="plus">
       </div>
