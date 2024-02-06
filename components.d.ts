@@ -20,5 +20,7 @@ declare module 'vue' {
     MyFooter: typeof import('./src/components/MyFooter.vue')['default']
     MyHeader: typeof import('./src/components/MyHeader.vue')['default']
     MyPhoneMask: typeof import('./src/components/MyPhoneMask.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
   }
 }
