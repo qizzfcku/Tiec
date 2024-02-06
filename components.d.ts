@@ -11,10 +11,13 @@ declare module 'vue' {
     CardList: typeof import('./src/components/CardList.vue')['default']
     CartItem: typeof import('./src/components/CartItem.vue')['default']
     CartItemList: typeof import('./src/components/CartItemList.vue')['default']
+    DawnBoard: typeof import('./src/components/DawnBoard.vue')['default']
+    DownBoard: typeof import('./src/components/DownBoard.vue')['default']
     Drawer: typeof import('./src/components/Drawer.vue')['default']
     Main: typeof import('./src/components/Main.vue')['default']
     MazBtn: typeof import('maz-ui/components/MazBtn')['default']
     MazPhoneNumberInput: typeof import('maz-ui/components/MazPhoneNumberInput')['default']
+    MyFooter: typeof import('./src/components/MyFooter.vue')['default']
     MyHeader: typeof import('./src/components/MyHeader.vue')['default']
     MyPhoneMask: typeof import('./src/components/MyPhoneMask.vue')['default']
   }

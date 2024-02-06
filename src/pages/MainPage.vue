@@ -1,10 +1,10 @@
 <script setup>
 
-import MyHeader from '@/App.vue'
+import Main from '@/components/Main.vue'
 </script>
 
 <template>
-  <MyHeader/>
+  <Main/>
 </template>
 
 <style scoped>

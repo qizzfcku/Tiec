@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div class="mt-48 ml-16">
-    <div class="bg-black/40 w-2/5 h-1/3  text-white rounded-3xl pl-2">
+  <div id="main" class="h-screen pl-16 pt-44">
+    <div class="bg-black/40 w-2/5 h-1/3 text-white rounded-3xl pl-2">
       <h1 class="text-5xl pb-11 pt-7"><b>Экотекс</b></h1>
       <div class="pb-5">
         <p class="text-xl">Представитель компании Tianjia Intelligent Equipment Manufacturing Jiangsu Co., Ltd
@@ -23,10 +23,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="bottom-0 w-full h-20 bg-amber-600 flex justify-center absolute">
-    <img class="absolute h-7 pl-5 mt-4 cursor-pointer" src="/public/image 15.svg" alt="underLogo">
-    <p class="text-slate-800 text-sm absolute bottom-3">© 2024. Все права защищены.</p>
   </div>
 
 </template>

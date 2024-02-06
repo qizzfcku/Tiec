@@ -9,8 +9,8 @@ function changeAdd(){
 </script>
 
 <template>
-  <div class="grid grid-cols-4 gap-5">
-    <Card :onClickAdd="changeAdd" :is-added="false" title="Интеллектуальная снегоуборочная машина 365B-Z" image-url="/image 6.png"/>
+  <div class="grid grid-cols-4 gap-5 mb-20">
+    <Card :onClickAdd="changeAdd" :is-added="true" title="Интеллектуальная снегоуборочная машина 365B-Z" image-url="/image 6.png"/>
     <Card :is-added="false" title="Машина для разбрасывания противогололедной жидкости T400" image-url="/image 8.png"/>
     <Card :is-added="false" title="Автомобиль для сбора противогололедной жидкости T500" image-url="/image 9.png"/>
     <Card :is-added="false" title="Снегоуборочная машина TG25" image-url="/image 10.png"/>
